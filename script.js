@@ -78,7 +78,7 @@ prevSlide.addEventListener('click', e=>{
     const prevSlideImg = currentSlideImg.previousElementSibling;
     const currentDot = navSlide.querySelector('.current');
     const prevtDot = currentDot.previousElementSibling;
-    moveSlide(sliderElements, currentSlideImg,prevSlideImg );
+    moveSlide(sliderElements, currentSlideImg,prevSlideImg);
     updateNavs(currentDot, prevtDot);
     const prevIndexSlide = slides.findIndex(slide => slide === prevSlideImg);
     hideShowArrows(slides,nextSlide,prevSlide, prevIndexSlide);
