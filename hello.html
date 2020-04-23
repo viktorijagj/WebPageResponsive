@@ -1,153 +1,189 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+  <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="hello.css"/>
+    <link rel="stylesheet" href="hello.css" />
     <title>Welcome to Makedonska Kameinica</title>
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&family=Comic+Neue:ital,wght@1,300&display=swap" rel="stylesheet">  <body>
     <header>
-        <nav>
-            <ul class="nav-menu" id="navClick">
-                <li class="menu-item">
-                    <img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Coat_of_arms_of_Makedonska_Kamenica_Municipality.svg/1200px-Coat_of_arms_of_Makedonska_Kamenica_Municipality.svg.png" alt="M.Kamenica" height="100" width="80">
-                </li>
-                <li class="menu-item menu">
-                    <h4 class="logo-title"><a href="#">Убавините на каменица</a> </h4>
-                </li>
-                <li class="menu-item"><a href="#">Почетна</a></li>
-                <li class="menu-item"><a href="about.html">За нас</a></li>
-                <li class="menu-item"><a href="#">Контакт</a></li>
-                <li class="menu-item"><a href="#">Sign in</a></li>
-                <li class="menu-item"><a href="#">Sign up</a></li>
-                <li class="menu-item hamburger"><a href="javascript:void(0);" onclick="hamburgerMenu()">&#9776;</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="nav-menu" id="navClick">
+          <li class="menu-item">
+            <img
+              class="logo-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Coat_of_arms_of_Makedonska_Kamenica_Municipality.svg/1200px-Coat_of_arms_of_Makedonska_Kamenica_Municipality.svg.png"
+              alt="M.Kamenica"
+              height="100"
+              width="80"
+            />
+          </li>
+          <li class="menu-item menu">
+            <h4 class="logo-title"><a href="#">Убавините на Kаменица</a></h4>
+          </li>
+          <li class="menu-item"><a href="#">Почетна</a></li>
+          <li class="menu-item"><a href="about.html">За нас</a></li>
+          <li class="menu-item"><a href="#">Контакт</a></li>
+          <li class="menu-item"><a href="#">Портфолио</a></li>
+          <!-- <li class="menu-item"><a href="#">Sign up</a></li> -->
+          <li class="menu-item hamburger">
+            <a href="javascript:void(0);" onclick="hamburgerMenu()">&#9776;</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <section class="carousel">
-        <button class="carousel-btn btn-left"><img src="img/left-arrow.svg" alt=""></button>
-        <div class="carousel-container">
-            <ul class="carousel-elements">
-                <li class="carousel-items"><img class="carousel-img" src="img/slide_1.jpg" alt=""></li>
-                <li class="carousel-items"><img class="carousel-img" src="img/slide_2.jpg" alt=""></li>
-                <li class="carousel-items"><img class="carousel-img" src="img/slide_3.jpg" alt=""></li>
-            </ul>
-        </div>
-        <button class="carousel-btn btn-right"><img src="img/right-arrow.svg" alt=""></button>
-        <div class="carousel-nav">
-            <button class="carousel-nav-item current"></button>
-            <button class="carousel-nav-item"></button>
-            <button class="carousel-nav-item"></button>
-        </div>
+      <button class="carousel-btn btn-left ishidden">
+        <img src="img/back.svg" alt="" />
+      </button>
+      <div class="carousel-container">
+        <ul class="carousel-elements">
+          <li class="carousel-items current">
+            <img class="carousel-img" src="img/slide_1.jpg" alt="" />
+          </li>
+          <li class="carousel-items">
+            <img class="carousel-img" src="img/slide_2.jpg" alt="" />
+          </li>
+          <li class="carousel-items">
+            <img class="carousel-img" src="img/slide_3.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel-btn btn-right">
+        <img src="img/next.svg" alt="" />
+      </button>
+      <div class="carousel-nav">
+        <button class="carousel-nav-item current"></button>
+        <button class="carousel-nav-item"></button>
+        <button class="carousel-nav-item"></button>
+      </div>
     </section>
 
     <section class="about-section">
-        <!-- Shows an element when another is on hover! -->
-        <!--<div class="show">Hi there!</div>-->
-        <br />
-        <p class="desc-left"> <b>Македонска Каменица</b>  град во источниот дел на Република Македонија. Се наоѓа во подножјето на Осоговските Планини на нивната јужна падина. Познат е како рударски град. Најпознатиот македонски рудник за олово и цинк Саса е во неговата непосредна близина. Како град е прогласен во 2004 година. Седиште е на истоимената општина, која зафаќа површина од 19.037 ха, има 9 населени места со вкупно 8.110 жители. Според пописот од 2002 година, градот има 5.147 жители.</p>
+      <!-- Shows an element when another is on hover! -->
+      <!--<div class="show">Hi there!</div>-->
+      <br />
+      <p class="desc-left">
+        <b>Македонска Каменица</b> град во источниот дел на Република
+        Македонија. Се наоѓа во подножјето на Осоговските Планини на нивната
+        јужна падина. Познат е како рударски град. Најпознатиот македонски
+        рудник за олово и цинк Саса е во неговата непосредна близина. Како град
+        е прогласен во 2004 година. Седиште е на истоимената општина, која
+        зафаќа површина од 19.037 ха, има 9 населени места со вкупно 8.110
+        жители. Според пописот од 2002 година, градот има 5.147 жители.
+      </p>
 
-        <p class="desc-right">Името Каменица потекнува од име на река, неговото занчење е „вода што тече во каменесто корито“. Во минатото името на селото е документирано во еден запис од 1566 година, како Камена Река,[1] од која потекнува и првиот познат македонски печатар Јаков, кој во 1566 г. печати свои книги во Венеција</p>
+      <p class="desc-right">
+        Името Каменица потекнува од име на река, неговото занчење е „вода што
+        тече во каменесто корито“. Во минатото името на селото е документирано
+        во еден запис од 1566 година, како Камена Река,[1] од која потекнува и
+        првиот познат македонски печатар Јаков, кој во 1566 г. печати свои книги
+        во Венеција.Главна стопанска дејност на населението е рударството,
+        покрај рудникот Саса, во градот работат и текстилни погони и цинкара.Шумски плодови, габи.
+      </p>
     </section>
 
-
-    <!--<table cellpadding="10" cellspacing="5">
-        <tr>
-            <td><button>Prirodni bogatstva</button></td>
-            <td><button>Rudnik SASA</button></td>
-            <td><button>Ekonomija</button></td>
-        </tr>
-        <tr>
-            <td><button>Za Opshtinata</button></td>
-            <td><button>Ekoloshko drushtvo</button></td>
-            <td><button>Privatni firmi</button></td>
-
-        </tr>
-    </table>-->
-    
     <div class="container why-container">
-        <div class="row">
-            <div class="col-12">
-                <div class="why-section">
-                    <h2>Зошто да ја посетите Македонска Каменица?</h2>
-                    <ul class="list">
-                        <li class="list-item">Чист Воздух!</li>
-                        <li class="list-item">Природна Храна!</li>
-                        <li class="list-item">Гостопримливи Луѓе!</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="why-section">
+            <h2>Зошто да ја посетите Македонска Каменица?</h2>
+            <br>
+            <ul class="list">
+              <li class="list-item">Чист Воздух!</li>
+              <li class="list-item">Природна Храна!</li>
+              <li class="list-item">Гостопримливи Луѓе!</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
     <div class="container-1">
-        <div class="box box1">
-            <h4>Администрација и политика</h4>
-            <p>Градоначалник на општина Македонска Каменица е Соња Стаменкова од редовите на СДСМ. Таа бил избрана на локалните избори од 2017 година за мандат од четири години.[2] Советот на општина Македонска Каменица е составен од 11 члена. Според последните локални избори од 2017 година.</p>
-        </div>
-        <div class="box box2">
-            <div class="img">
-                <img src="web.png"/>
-                <!--<h4>Рудник САСА </h4>
-                <p> Работата околу рестартирањето успешно ја водеше менаџерски тим и стручњаци од различни области кои и претходно работеле во рудникот со што се постигна основната цел  </p>-->
-
-            </div>
-            
-        </div>
-        <div class="box box3">
-            <h4>Временска Прогноза</h4>
-            <p> Времето денеска ќе биде сончево и постудено со мала до умерена облачност и со слаб до умерен ветер од северен правец, особено изразен во југоисточните делови. Максималната температура ќе се движи од 2 до 9 степени.   </p>
-        </div>
+      <div class="box box1">
+        <h4>Администрација и политика</h4>
+        <p>
+          Градоначалник на општина Македонска Каменица е Соња Стаменкова од
+          редовите на СДСМ. Таа бил избрана на локалните избори од 2017 година
+          за мандат од четири години.[2] Советот на општина Македонска Каменица
+          е составен од 11 члена. Според последните локални избори од 2017
+          година.
+        </p>
+      </div>
+      <div class="box box2">
+        <h4>Рудник САСА</h4>
+        <p>
+          Работата околу рестартирањето успешно ја водеше менаџерски тим и
+          стручњаци од различни области кои и претходно работеле во рудникот со
+          што се постигна основната цел
+        </p>
+      </div>
+      <div class="box box3">
+        <h4>Временска Прогноза</h4>
+        <p>
+          Времето денеска ќе биде сончево и постудено со мала до умерена
+          облачност и со слаб до умерен ветер од северен правец, особено изразен
+          во југоисточните делови. Максималната температура ќе се движи од 2 до
+          9 степени.
+        </p>
+      </div>
     </div>
-   <div class="container contact-section">
-       <div class="row">
-           <div class="col-6 col-mobile">
-               <div class="contact">
-                   <h3>Контактирајте не:</h3>
-                   <form class="form">
-                       <label> Име:<br /> <input type="text" placeholder="ex.Ivan" /></label><br />
-                       <label>Презиме:<br /> <input type="text" placeholder="ex. Ivanov" /></label><br />
-                       <label>Телефон:<br /> <input type="text" placeholder="ex. 078888888" /></label><br />
-                       <label>Емаил:<br /> <input type="text" placeholder="ex. ivan@ivanov.com" /></label><br /><br />
-                       <button class="submit-btn" type="submit" value="Submit">Прати</button>
-                   </form>
-               </div>
-           </div>
-           <div class="col-6 col-mobile">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/WTJ8yBgdiSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-           </div>
-       </div>
-   </div>
- 
-    <hr>
+    <div class="container-video">
+      <div class="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/WTJ8yBgdiSE"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="video-p">
+        <p>
+          Во Македонска Каменица има едно основно училиште ОУ "Кирил и Методиј",
+          во чиј дел спаѓаат и подрачните училишта од околината, едно средно
+          училиште СОУ „Миле Јаневски-Џингар“. Градот има кино сала, која служи
+          за сите поголеми културни случувања. Покрај ова, има и библиотека со
+          6.500 книги, Дом на културата и Центар за културно-уметничка издавачка
+          дејност.Од особено значење за градот е настанот „Каменичко културно
+          лето“ кое се одржува секоја година и привлекува разни познати
+          настапувачи.Во градот настапува ФК Саса, кој сега се натпреварува во
+          регионалната лига, но во минатото бил дел од првата македонска
+          фудбалска лига. Градот има стадион со капацитет за 2.000 гледачи и
+          градски парк. 
+        </p>
+      </div>
+    </div>
+
+    <hr />
     <footer>
-        <div class="row">
-            <div class="col-6 col-mobile">
-                <ul>
-                    <li>Дома</li>
-                    <li>За Нас</li>
-                    <li>Контактирајте не</li>
-                </ul>
-            </div>
-            <div class="col-6 col-mobile">
-                <ul>
-                    <li>Врски</li>
-                    <li>Новости</li>
-                    <li>Политика за користење</li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="col-6 col-mobile">
+          <ul>
+            <li><a href="hello.html">Дома</a></li>
+            <li><a href="about.html">За Нас</a></li>
+            <li><a href="contact.html">Контактирајте не</a></li>
+          </ul>
         </div>
-       
-        <br />
-        <br />
-        <div class="row">
-            <div class="col-12">
-                <p>©Убавините на Македонска Каменица 2020</p>
-            </div>
+        <div class="col-6 col-mobile">
+          <ul>
+            <li>Врски</li>
+            <li>Новости</li>
+            <li>Политика за користење</li>
+          </ul>
         </div>
+      </div>
+
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <p>©Убавините на Македонска Каменица 2020</p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
