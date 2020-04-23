@@ -103,3 +103,18 @@ navSlide.addEventListener('click', e=>{
 
     
 })
+
+// MODAL POP UP
+
+const button= document.querySelector('.pop-btn');
+const modalShow = document.querySelector('.modal-popup');
+const closeBtn = document.querySelector('.close-btn');
+
+button.addEventListener('click', ()=> {
+    modalShow.classList.toggle('is-hidden');
+
+});
+
+closeBtn.addEventListener('click',()=>{
+    modalShow.classList.toggle('is-hidden');
+})
