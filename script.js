@@ -1,5 +1,5 @@
 // Function for hamnurger Menu
-function hamburgerMenu(e) {
+function hamburgerMenu() {
     var menu = document.getElementById("navClick");
     if (menu.className === "nav-menu") {
         menu.className += " resposive-menu";
@@ -8,7 +8,7 @@ function hamburgerMenu(e) {
         menu.className = "nav-menu";
     }
     
-    e.preventDefault();
+  
 }
 
 // Slider
