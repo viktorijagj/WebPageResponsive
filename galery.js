@@ -36,3 +36,9 @@ infBtn.addEventListener('click', ()=>{
         more.style.display = "inline";
     }
     })
+
+    //Form
+    const form = document.querySelector('.form');
+    form.addEventListener('submit',(e)=>{
+        e.preventDefault();
+    })

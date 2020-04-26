@@ -3,6 +3,9 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&family=Comic+Neue:ital,wght@1,300&display=swap" rel="stylesheet">  <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
 </head>
 <body>
         <nav>
@@ -19,16 +22,17 @@
                 <li class="menu-item"><a href="galery.html">Галерија</a></li>
                 <!-- <li class="menu-item"><a href="#">Sign in</a></li>
                 <li class="menu-item"><a href="#">Sign up</a></li> -->
-                <li class="menu-item hamburger"><a href="javascript:void(0);" onclick="hamburgerMenu()">&#9776;</a></li>
-            </ul>
+                <li class="menu-item hamburger">
+                    <a class="link-hamb" href="javascript:void(0);" onclick="hamburgerMenu()">&#9776;</a>
+                  </li>            </ul>
         </nav>
         <header class="about-header">
             <a class="back-btn" href="index.html"> &#8592;  Назад</a>
         </header>
     
    <div class="container contact-section">
-       <div class="row">
-           <div class="col-6 col-mobile">
+       <div class="row-contact">
+           <div class="contact1">
                <div class="contact">
                    <h3>Контактирајте не:</h3>
                    <form class="form">
@@ -40,7 +44,7 @@
                    </form>
                </div>
            </div>
-           <div class="col-6 col-mobile">
+           <div class="contact1">
             
                 <div class="mapouter">
                     <div class="gmap_canvas">
@@ -80,7 +84,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="galery.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
