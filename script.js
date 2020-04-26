@@ -1,11 +1,14 @@
 // Function for hamnurger Menu
 function hamburgerMenu() {
-    var menu = document.getElementById("navClick");
+    const menu = document.getElementById("navClick");
+    const habMenu = document.querySelector('.link-hamb');
     if (menu.className === "nav-menu") {
         menu.className += " resposive-menu";
+       habMenu.textContent = "X";
     }
     else {
         menu.className = "nav-menu";
+        habMenu.innerHTML="\&#9776;";
     }
     
   
