@@ -119,5 +119,3 @@ closeBtn.addEventListener('click',()=>{
     modalShow.classList.toggle('is-hidden');
 })
 
-// GALERY
-const imGalery = document.querySelector('.img-gal');
