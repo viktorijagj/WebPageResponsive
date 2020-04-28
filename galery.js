@@ -38,7 +38,7 @@ infBtn.addEventListener('click', ()=>{
     })
 
     //Form
-    const form = document.querySelector('.form');
-    form.addEventListener('submit',(e)=>{
-        e.preventDefault();
-    })
+    // const form = document.querySelector('.form');
+    // form.addEventListener('submit',(e)=>{
+    //     e.preventDefault();
+    // })
