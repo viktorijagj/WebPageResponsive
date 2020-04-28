@@ -417,7 +417,7 @@ a.back-btn:hover {
 
 section.carousel {
     position: relative;
-    width: 84%;
+    width: 78%;
     height: 58vh;
     margin: 0 auto;
 }
@@ -563,7 +563,7 @@ line-height: 1.5;
     padding: 0;
     margin: 0;
     position: relative;
-    top: 59%;
+    top: 40%;
     font-size: 1.5rem;
     /* text-transform: uppercase; */
 }
@@ -1058,7 +1058,7 @@ line-height: 1.5;
     /* Slider */
     section.carousel {
         padding: .5rem 0 3rem 0;
-        height: 28vh;
+        height: 36vh;
        
     }
     /* section.carousel {
@@ -1105,8 +1105,8 @@ line-height: 1.5;
         margin:0;
     }
     .popup h3 {
-        top: 40%;
-        padding: 8px;
+        top: 30%;
+        padding: 17px;
     }
        /* BLOG */
        .blog {
@@ -1123,4 +1123,21 @@ line-height: 1.5;
 
         margin:1rem auto;
     }
-
+    .about-info {
+        padding: 0 1rem 0 1rem;
+        width: 100%;
+    }
+    .more-info iframe {
+        /* margin: 0 auto; */
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .row-contact {
+        flex-direction: column;
+    }
+    .contact1 {
+        width: 100%;
+    }
+}
